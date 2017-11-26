@@ -17,6 +17,9 @@ export default class ContentPage extends Component {
         return(
             <View>
                 <Button style={styles.membersButtonStyle}
+                    onPress={() =>
+                        navigate('Content', {})
+                    }
                     title="Members"
                     color="coral"
                 />

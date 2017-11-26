@@ -57,7 +57,7 @@ export default class LoginPage extends Component {
 
             <Button
               onPress={() =>
-                  navigate('Content', {})
+                  navigate('Signup', {})
               }
               title="Sign Up"
               color="coral"
