@@ -14,11 +14,12 @@ export default class ContentPage extends Component {
     };
 
     render(){
+        const {navigate} = this.props.navigation;
         return(
             <View>
                 <Button style={styles.membersButtonStyle}
                     onPress={() =>
-                        navigate('Content', {})
+                        navigate('Members', {})
                     }
                     title="Members"
                     color="coral"
