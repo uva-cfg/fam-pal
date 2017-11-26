@@ -1,4 +1,10 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
+import {StackNavigator} from 'react-navigation';
+import LoginPage from './app/components/LoginPage';
+import ContentPage from './app/components/ContentPage';
 
-AppRegistry.registerComponent('fampal', () => App);
+const Navigation = StackNavigator({
+    Login: {screen: LoginPage},
+    Content: {screen: ContentPage},
+});
+AppRegistry.registerComponent('fampal', () => Navigation);
