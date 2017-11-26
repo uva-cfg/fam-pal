@@ -46,13 +46,24 @@ export default class LoginPage extends Component {
             value={this.state.password}
             onChangeText={password => this.setState({ password })}
           />
-          <Button style={styles.buttonStyle}
-            onPress={() =>
-                navigate('Content', {})
-            }
-            title="Login"
-            color="coral"
-          />
+          <View style={styles.buttonStyle}> 
+            <Button 
+              onPress={() =>
+                  navigate('Content', {})
+              }
+              title="Login"
+              color="coral"
+            />
+
+            <Button
+              onPress={() =>
+                  navigate('Content', {})
+              }
+              title="Sign Up"
+              color="coral"
+            />
+          </View>
+          
           
         </View>
     );
@@ -68,7 +79,9 @@ const styles = {
   },
 
   buttonStyle: {
-
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
   }
 
 };
