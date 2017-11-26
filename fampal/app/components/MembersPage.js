@@ -6,7 +6,7 @@ import {Button, Text, View, Image} from 'react-native';
 
 export default class ContentPage extends Component {
     static navigationOptions = {
-        title: 'MembersScreen'
+        title: 'Members'
     };
 
     render(){

@@ -6,7 +6,7 @@ import Button from './button';
 
 export default class SignupPage extends Component {
   static navigationOptions = {
-    title: 'SignupScreen',
+    title: 'Sign Up',
   };
 
   constructor(props) {

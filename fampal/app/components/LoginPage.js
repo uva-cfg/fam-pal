@@ -15,7 +15,7 @@ import {
 
 export default class LoginPage extends Component {
   static navigationOptions = {
-    title: 'LoginScreen',
+    title: 'Home',
   };
   state = { email: '', password: '', error: '', loading: false };
 

@@ -10,7 +10,7 @@ import { StackNavigator } from 'react-navigation';
 
 export default class ContentPage extends Component {
     static navigationOptions = {
-        title: 'ContentScreen'
+        title: 'Welcome'
     };
 
     render(){
